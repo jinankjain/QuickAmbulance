@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+
+    <!-- WinJS references -->
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/base.js"></script>
+    <script src="WinJS/js/ui.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetMap();
+            
+        });
+      
+        var map = null;
+      function GetMap()
+      {
+
+         map = new Microsoft.Maps.Map(document.getElementById("mapDiv"),
+                           {
+                               credentials: "J9x6F6ixu47wMMYDT1UN~VdJLq9tkt3kUNBC95k_uKQ~AnD_WNnFareMwCJpvYJ8OSCCIAheCGpSeTiJbVVWiWEIovvDvVlstSleoe0HMIYE",
+                                center: new Microsoft.Maps.Location(45.5, -122.5),
+                                mapTypeId: Microsoft.Maps.MapTypeId.road,
+                                zoom: 7
+                           });
+         getCurrentLocation();
+      }
+
+      
+      function getCurrentLocation() {
+          var geoLocationProvider = new Microsoft.Maps.GeoLocationProvider(map);
+          geoLocationProvider.getCurrentPosition({ successCallback: displayCenter });
+          //console.log(lat);
+      }
+      function displayCenter(args) {
+          // Display the user location when the geo location request returns
+          console.log(localStorage.id);
+          $.post("http://quick-ambulance.cloudapp.net:8083", JSON.stringify({ "reg_id": localStorage.id, "lati": args.center.latitude, "longi": args.center.longitude }), function (data, status) {
+                if(status=="success")
+                {
+                    if (data != "ok2") {
+                        data = JSON.parse(data);
+                        //console.log(data.lati);
+                        localStorage.setItem("lati", data.lati);
+                        localStorage.setItem("longi", data.longi);
+                        //localStorage.setItem("id", data._id);
+                        localStorage.setItem("name", data.name);
+                        localStorage.setItem("contact", data.contact);
+                        window.location.href = "second.html";
+                    }
+                }
+                else
+                {
+
+                }
+          });
+      }
+      setInterval(getCurrentLocation, 3000);
+    </script>
+
+    <!-- Test references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="/js/default.js"></script>
+    <script>
+        function changeStatus(sel)
+        {
+            $.post("http://quick-ambulance.cloudapp.net:8083", JSON.stringify({ reg_id: localStorage.id, curr_status: sel.value }));
+        }
+    </script>
+</head>
+<body class="win-type-body boo">
+    
+    
+    <br /><br />
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-xs-12" id="mapDiv">
+
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="form-group">
+                <select id="status" class="col-xs-12 form-control text-center" onchange="changeStatus(this);">
+                    <option value="Serviceable">Serviceable</option>
+                    <option value="0">Not Serviceable</option>
+                </select>
+            </div>
+            <br /><br />
+            <div class="form-group text-center">
+                <h3><font color="white">Waiting for User Request!!</font></h3>
+            </div>
+    </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/base.js"></script>
+    <script src="WinJS/js/ui.js"></script>
+    
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/docs.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script>
+        function register()
+        {
+            var id = Math.floor((Math.random() * 1000) + 1);
+            localStorage.setItem("id", id);
+            var user = document.getElementById("dname").value;
+            var email = document.getElementById("demail").value;
+            var contact = document.getElementById("dcontact").value;
+            var dvechicle = document.getElementById("dvechicle").value;
+            console.log(email);
+            var amb_data = {
+                "reg_id": id,
+                "reg_name": user,
+                "reg_email": email,
+                "reg_contact": contact,
+                "reg_veh_no": dvechicle,
+                "lati": "22.5",
+                "longi": "72.5"
+            }
+            $.post("http://quick-ambulance.cloudapp.net:8083", JSON.stringify(amb_data), function (data, status) {
+                if(status=="success")
+                {
+                    console.log("Succ!!!!");
+                    //data = JSON.parse(data);
+                    window.location.href = "first.html";
+                }
+                else
+                {
+                    console.log(status);
+                }
+            });
+        }
+    </script>
+
+</head>
+<body style="background-color:#0064bf">
+    <br /> <br />
+    <h2 class="text-center"><font color="white" >Quick Ambulance</font></h2>
+    <br /><br />
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="form-group">
+                <div class="input-group col-xs-12">
+                    <input type="text" class="form-control" id="dname" placeholder="Driver Name">
+                </div>
+                <br />
+                <div class="input-group col-xs-12">
+                    <input type="email" class="form-control" id="demail" placeholder="Driver Email">
+                </div>
+                <br />
+                <div class="input-group col-xs-12">
+                    <span class="input-group-addon">+91</span>
+                    <input type="number" class="form-control" id="dcontact" placeholder="Driver Phone Number">
+                </div>
+                <br />
+                <div class="input-group col-xs-12">
+                    <input type="text" class="form-control" id="dvechicle" placeholder="Driver's Vechicle Number">
+                </div>
+                <br />
+                <input type="submit" value="Register" onclick="register();" class="col-xs-12 btn btn-outline-inverse btn-lg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

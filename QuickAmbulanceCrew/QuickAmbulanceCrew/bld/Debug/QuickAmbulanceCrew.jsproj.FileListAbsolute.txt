@@ -1,0 +1,16 @@
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bin\Debug\ReverseMap\resources.pri
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bin\Debug\AppxManifest.xml
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bin\Debug\QuickAmbulanceCrew.build.appxrecipe
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\ResourceHandlingTask.state
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\priconfig.xml
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\priconfig.xml.intermediate
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\layout.resfiles
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\layout.resfiles.intermediate
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\resources.resfiles
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\resources.resfiles.intermediate
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\pri.resfiles
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\pri.resfiles.intermediate
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\qualifiers.txt
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\ProjectArchitectures.txt

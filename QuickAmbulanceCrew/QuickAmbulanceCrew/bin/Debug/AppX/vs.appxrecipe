@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-50P1AA4</Machine>
+    <WindowsUser>Jinank</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>19a6da11-8207-438a-ba05-21f89f8f3686</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B324D98F457B444ADD744E8602F3450D3547275B71DE1EB8B147460C9491B7C9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>19a6da11-8207-438a-ba05-21f89f8f3686_1.0.0.0_neutral__m8tm5fhq7v4qe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>19a6da11-8207-438a-ba05-21f89f8f3686_m8tm5fhq7v4qe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>19a6da11-8207-438a-ba05-21f89f8f3686</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jinank</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T08:41:40.337</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-switch\bootstrap2\bootstrap-switch.css">
+      <PackagePath>Content\bootstrap-switch\bootstrap2\bootstrap-switch.css</PackagePath>
+      <Modified>2016-01-23T16:23:23.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-switch\bootstrap2\bootstrap-switch.min.css">
+      <PackagePath>Content\bootstrap-switch\bootstrap2\bootstrap-switch.min.css</PackagePath>
+      <Modified>2016-01-23T16:23:23.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-switch\bootstrap3\bootstrap-switch.css">
+      <PackagePath>Content\bootstrap-switch\bootstrap3\bootstrap-switch.css</PackagePath>
+      <Modified>2016-01-23T16:23:23.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-switch\bootstrap3\bootstrap-switch.min.css">
+      <PackagePath>Content\bootstrap-switch\bootstrap3\bootstrap-switch.min.css</PackagePath>
+      <Modified>2016-01-23T16:23:23.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-theme.css">
+      <PackagePath>Content\bootstrap-theme.css</PackagePath>
+      <Modified>2016-01-24T07:36:45.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-theme.min.css">
+      <PackagePath>Content\bootstrap-theme.min.css</PackagePath>
+      <Modified>2016-01-24T07:36:45.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap.css">
+      <PackagePath>Content\bootstrap.css</PackagePath>
+      <Modified>2016-01-24T07:36:45.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap.min.css">
+      <PackagePath>Content\bootstrap.min.css</PackagePath>
+      <Modified>2016-01-24T07:36:45.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\css\docs.css">
+      <PackagePath>css\docs.css</PackagePath>
+      <Modified>2016-01-24T07:36:45.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-01-24T07:38:26.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-theme.css.map">
+      <PackagePath>Content\bootstrap-theme.css.map</PackagePath>
+      <Modified>2016-01-24T07:36:45.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap-theme.min.css.map">
+      <PackagePath>Content\bootstrap-theme.min.css.map</PackagePath>
+      <Modified>2016-01-23T12:00:40.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap.css.map">
+      <PackagePath>Content\bootstrap.css.map</PackagePath>
+      <Modified>2016-01-24T07:36:45.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Content\bootstrap.min.css.map">
+      <PackagePath>Content\bootstrap.min.css.map</PackagePath>
+      <Modified>2016-01-23T12:00:40.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\jquery-1.9.1.min.map">
+      <PackagePath>Scripts\jquery-1.9.1.min.map</PackagePath>
+      <Modified>2016-01-23T12:00:28.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2016-01-24T06:59:45.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\end.html">
+      <PackagePath>end.html</PackagePath>
+      <Modified>2016-01-24T08:48:23.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\first.html">
+      <PackagePath>first.html</PackagePath>
+      <Modified>2016-01-24T08:55:52.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\question.html">
+      <PackagePath>question.html</PackagePath>
+      <Modified>2016-01-24T07:38:26.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\second.html">
+      <PackagePath>second.html</PackagePath>
+      <Modified>2016-01-24T07:38:26.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2016-01-23T12:00:40.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2016-01-23T12:00:40.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2016-01-23T12:00:40.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2016-01-23T12:00:40.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2016-01-23T12:00:39.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\BadgeLogo.scale-100.png">
+      <PackagePath>images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\BadgeLogo.scale-125.png">
+      <PackagePath>images\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\BadgeLogo.scale-150.png">
+      <PackagePath>images\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\BadgeLogo.scale-200.png">
+      <PackagePath>images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\BadgeLogo.scale-400.png">
+      <PackagePath>images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\SplashScreen.scale-150.png">
+      <PackagePath>images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:10:39.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:10:39.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\SplashScreen.scale-400.png">
+      <PackagePath>images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:10:39.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:59:44.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:59:48.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square44x44Logo.scale-150.png">
+      <PackagePath>images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:59:30.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T05:59:40.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-09-20T10:52:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+      <Modified>2016-01-24T07:10:01.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\js\slide.js">
+      <PackagePath>js\slide.js</PackagePath>
+      <Modified>2016-01-24T00:18:47.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\bootstrap-switch.js">
+      <PackagePath>Scripts\bootstrap-switch.js</PackagePath>
+      <Modified>2016-01-23T16:23:23.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\bootstrap-switch.min.js">
+      <PackagePath>Scripts\bootstrap-switch.min.js</PackagePath>
+      <Modified>2016-01-23T16:23:23.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\bootstrap.js">
+      <PackagePath>Scripts\bootstrap.js</PackagePath>
+      <Modified>2016-01-23T12:00:39.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\bootstrap.min.js">
+      <PackagePath>Scripts\bootstrap.min.js</PackagePath>
+      <Modified>2016-01-23T12:00:39.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\jquery-1.9.1.intellisense.js">
+      <PackagePath>Scripts\jquery-1.9.1.intellisense.js</PackagePath>
+      <Modified>2016-01-23T12:00:28.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\jquery-1.9.1.js">
+      <PackagePath>Scripts\jquery-1.9.1.js</PackagePath>
+      <Modified>2016-01-23T12:00:28.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\Scripts\jquery-1.9.1.min.js">
+      <PackagePath>Scripts\jquery-1.9.1.min.js</PackagePath>
+      <Modified>2016-01-23T12:00:28.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2016-01-23T16:23:23.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jinank\Documents\Visual Studio 2015\Projects\QuickAmbulanceCrew\QuickAmbulanceCrew\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-24T08:41:40.185</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

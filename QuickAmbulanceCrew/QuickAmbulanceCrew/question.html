@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Create Driving Route</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/base.js"></script>
+    <script src="WinJS/js/ui.js"></script>
+
+    <script type="text/javascript" src="js/slide.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="/js/default.js"></script>
+    <link href="css/docs.css" rel="stylesheet" />
+
+    <script>
+        function submit() {
+            var checkValue = [0,0,0,0,0,0,0,0,0,0];
+            if ($('#1').is(":checked")) {
+                // it is checked
+                checkValue[0] = 1;
+            }
+            if ($('#2').is(":checked")) {
+                // it is checked
+                checkValue[1] = 1;
+            }
+            if ($('#3').is(":checked")) {
+                // it is checked
+                checkValue[2] = 1;
+            }
+            if ($('#4').is(":checked")) {
+                // it is checked
+                checkValue[3] = 1;
+            }
+            if ($('#5').is(":checked")) {
+                // it is checked
+                checkValue[4] = 1;
+            }
+            if ($('#6').is(":checked")) {
+                // it is checked
+                checkValue[5] = 1;
+            }
+            if ($('#7').is(":checked")) {
+                // it is checked
+                checkValue[6] = 1;
+            }
+            if ($('#8').is(":checked")) {
+                // it is checked
+                checkValue[7] = 1;
+            }
+            if ($('#9').is(":checked")) {
+                // it is checked
+                checkValue[8] = 1;
+            }
+            if ($('#10').is(":checked")) {
+                // it is checked
+                checkValue[9] = 1;
+            }
+        }
+    </script>
+
+</head>
+<body class="boo">
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-Menu">
+                    <a href="#">
+                        Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="second.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Questions</a>
+                </li>
+                <li>
+                    <a href="#">Way To Hospital</a>
+                </li>
+
+                <li>
+                    <a href="end.html">End Trip</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+           
+            <div class="col-xs-12 wtext1 of_scrollbar form-inline">
+                <fieldset>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="1" value=""></label>Is accident victim conscious?
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="2" value=""></label>Is victim able to tell his/ her name?
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" id="3" value=""></label>Is victim making any abnormal sounds while breathing? ( high pitch sounds/ struggling for breath/ choking)
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="4" value=""></label>Is both sides of chest of victim rising equally with each breath ?
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="5" value=""></label>Is victim experiencing any difficulty in breathing? 
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" id="6" value=""></label>Is there bleeding in and around victim or at the site of accident?( high pitch sounds/ struggling for breath/ choking)
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="7" value=""></label> Is victim able to move fingers or toes on command ?
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="8" value=""></label>Is victim opening eyes on command?
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" id="9" value=""></label>Is there any injury on chest or abdomen?
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" id="10" value=""></label>Are surroundings safe ? ( no risk of fire, electric current, any traffic or any other source due to which rescuer or patient might get hurt) 
+                    </div>
+                    </fieldset>
+                    <input type="submit" value="Submit" onclick="submit();" class="col-xs-12 btn btn-outline-inverse btn-lg">
+</div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
