@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Opacity" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="QA.MainPage" />
+  </Roots.RootTypes>
+</Roots>

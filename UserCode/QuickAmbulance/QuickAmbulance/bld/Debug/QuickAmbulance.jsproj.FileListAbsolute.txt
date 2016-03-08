@@ -1,0 +1,16 @@
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bin\Debug\ReverseMap\resources.pri
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bin\Debug\AppxManifest.xml
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bin\Debug\QuickAmbulance.build.appxrecipe
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\ResourceHandlingTask.state
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\priconfig.xml
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\priconfig.xml.intermediate
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\layout.resfiles
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\layout.resfiles.intermediate
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\resources.resfiles
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\resources.resfiles.intermediate
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\pri.resfiles
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\pri.resfiles.intermediate
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\qualifiers.txt
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\qualifiers.txt.intermediate
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\calvin\documents\visual studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\ProjectArchitectures.txt

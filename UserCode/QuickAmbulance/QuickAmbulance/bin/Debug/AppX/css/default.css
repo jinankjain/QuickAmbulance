@@ -1,0 +1,47 @@
+﻿.boo {
+    background: #0064bf;
+}
+.wtext {
+    color: #fff;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.theme-addon {
+    color: #fff;
+    background-color: #0064bf;
+}
+
+#mapDiv {
+    height: 340px;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 50px #fff;
+}
+
+.uploadedImageDiv {
+    height: 200px;
+}
+
+#uploadedImage {
+    max-height: 200px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}

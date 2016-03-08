@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOBBES</Machine>
+    <WindowsUser>Calvin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bf2bb7bf-71e1-4f96-abd6-938b594fcd84</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8119F632C222F0318A684F04780939F240BAB79D5672BA1B15B3430A25B6DE89</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bf2bb7bf-71e1-4f96-abd6-938b594fcd84_1.0.0.0_neutral__2xj8jbn57epqr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bf2bb7bf-71e1-4f96-abd6-938b594fcd84_2xj8jbn57epqr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bf2bb7bf-71e1-4f96-abd6-938b594fcd84</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Calvin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T06:13:24.770</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap-theme.css">
+      <PackagePath>Content\bootstrap-theme.css</PackagePath>
+      <Modified>2016-01-23T10:53:55.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap-theme.min.css">
+      <PackagePath>Content\bootstrap-theme.min.css</PackagePath>
+      <Modified>2016-01-23T10:53:54.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap.css">
+      <PackagePath>Content\bootstrap.css</PackagePath>
+      <Modified>2016-01-23T10:53:54.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap.min.css">
+      <PackagePath>Content\bootstrap.min.css</PackagePath>
+      <Modified>2016-01-23T20:54:29.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\css\docs.css">
+      <PackagePath>css\docs.css</PackagePath>
+      <Modified>2016-01-23T11:24:00.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-01-23T19:45:11.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap-theme.css.map">
+      <PackagePath>Content\bootstrap-theme.css.map</PackagePath>
+      <Modified>2016-01-23T10:53:55.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap-theme.min.css.map">
+      <PackagePath>Content\bootstrap-theme.min.css.map</PackagePath>
+      <Modified>2016-01-23T10:53:54.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap.css.map">
+      <PackagePath>Content\bootstrap.css.map</PackagePath>
+      <Modified>2016-01-23T10:53:54.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Content\bootstrap.min.css.map">
+      <PackagePath>Content\bootstrap.min.css.map</PackagePath>
+      <Modified>2016-01-23T10:53:54.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\jquery-1.9.1.min.map">
+      <PackagePath>Scripts\jquery-1.9.1.min.map</PackagePath>
+      <Modified>2016-01-23T10:53:46.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2016-01-23T16:55:26.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\showmap.html">
+      <PackagePath>showmap.html</PackagePath>
+      <Modified>2016-01-23T20:21:53.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2016-01-23T10:53:54.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2016-01-23T10:53:54.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2016-01-23T10:53:54.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2016-01-23T10:53:54.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2016-01-23T10:53:54.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\ambulance_icon.gif">
+      <PackagePath>images\ambulance_icon.gif</PackagePath>
+      <Modified>2016-01-23T22:02:30.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T06:05:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-24T06:05:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-10T15:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-09-20T10:52:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+      <Modified>2016-01-23T19:19:49.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\js\showmap.js">
+      <PackagePath>js\showmap.js</PackagePath>
+      <Modified>2016-01-24T03:38:29.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\bootstrap.js">
+      <PackagePath>Scripts\bootstrap.js</PackagePath>
+      <Modified>2016-01-23T10:53:54.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\bootstrap.min.js">
+      <PackagePath>Scripts\bootstrap.min.js</PackagePath>
+      <Modified>2016-01-23T10:53:54.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\jquery-1.9.1.intellisense.js">
+      <PackagePath>Scripts\jquery-1.9.1.intellisense.js</PackagePath>
+      <Modified>2016-01-23T10:53:46.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\jquery-1.9.1.js">
+      <PackagePath>Scripts\jquery-1.9.1.js</PackagePath>
+      <Modified>2016-01-23T10:53:46.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\Scripts\jquery-1.9.1.min.js">
+      <PackagePath>Scripts\jquery-1.9.1.min.js</PackagePath>
+      <Modified>2016-01-23T10:53:46.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+      <Modified>2015-10-10T15:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2016-01-23T10:53:55.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Calvin\Documents\Visual Studio 2015\Projects\QuickAmbulance\QuickAmbulance\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-24T06:13:24.671</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
